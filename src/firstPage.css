@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://use.typekit.net/tlz0ojg.css");
+
+body{
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container_left{
+    width: 45%;
+    height: 100%;
+}
+
+.container_right{
+    padding-left: 50px;
+    width: 55%;
+    height: 100%;
+    background-color: #FD5334;
+    color: #fff;
+    font-family: nunito, sans-serif; 
+    font-weight: 800;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.container_right span{
+    color: black;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.container_right p{
+    width: 90%;
+}
+
+
+.button img{
+    width: 20px;
+}
+.container_left_top{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    background-color: #7025FB;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 60px;
+    font-family: nunito, sans-serif; 
+    font-weight: 900;
+    color: #fff;
+}
+
+.container_left_bot{
+    width: 100%;
+    height: 90%;
+}
+
+.first_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
