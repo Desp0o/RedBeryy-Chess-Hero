@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.16271af1.css",
-    "main.js": "/static/js/main.ee9e7c36.js",
-    "static/js/512.6c884ebe.chunk.js": "/static/js/512.6c884ebe.chunk.js",
-    "static/media/secondBG.svg": "/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
-    "static/media/first_bg.svg": "/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
-    "static/media/arrow_next.svg": "/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
-    "static/media/CompleteMark.svg": "/static/media/CompleteMark.36b599b2c6d824988f70f663299c7b19.svg",
-    "static/media/yesMark.svg": "/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
-    "static/media/chessLogo.svg": "/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
-    "index.html": "/index.html",
-    "main.16271af1.css.map": "/static/css/main.16271af1.css.map",
-    "main.ee9e7c36.js.map": "/static/js/main.ee9e7c36.js.map",
-    "512.6c884ebe.chunk.js.map": "/static/js/512.6c884ebe.chunk.js.map"
+    "main.css": "/RedBeryy-Chess-Hero/static/css/main.16271af1.css",
+    "main.js": "/RedBeryy-Chess-Hero/static/js/main.8e85da5e.js",
+    "static/js/512.6c884ebe.chunk.js": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js",
+    "static/media/secondBG.svg": "/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
+    "static/media/first_bg.svg": "/RedBeryy-Chess-Hero/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
+    "static/media/arrow_next.svg": "/RedBeryy-Chess-Hero/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
+    "static/media/CompleteMark.svg": "/RedBeryy-Chess-Hero/static/media/CompleteMark.36b599b2c6d824988f70f663299c7b19.svg",
+    "static/media/yesMark.svg": "/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
+    "static/media/chessLogo.svg": "/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
+    "index.html": "/RedBeryy-Chess-Hero/index.html",
+    "main.16271af1.css.map": "/RedBeryy-Chess-Hero/static/css/main.16271af1.css.map",
+    "main.8e85da5e.js.map": "/RedBeryy-Chess-Hero/static/js/main.8e85da5e.js.map",
+    "512.6c884ebe.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16271af1.css",
-    "static/js/main.ee9e7c36.js"
+    "static/js/main.8e85da5e.js"
   ]
 }
