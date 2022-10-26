@@ -3,6 +3,7 @@ import './App.css';
 // import {Route, Link, Router} from 'react-router-dom'
 import FirstPage from './firstPage';
 import SecondPage from './SecondPage';
+import ThirdPage from './thirdPage';
 
 import {
   HashRouter as Router,
@@ -22,6 +23,7 @@ function App(){
       <Route exact path="/" element={<FirstPage/>} />
       <Route exact path="/FirstPage" element={<FirstPage/>} />
       <Route exact path="/SecondPage" element={<SecondPage />} />
+      <Route exact path="/ThirdPage" element={<ThirdPage />} />
       </Routes>
       </Router>
     </div>

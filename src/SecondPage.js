@@ -111,7 +111,7 @@ let navigate = useNavigate()
         if((clName === "visible") &&
            (clMail === "visible") &&
            (clPhone === "visible")){
-            navigate('/firstPage')
+            navigate('/thirdPage')
         }else{
             if(clName === "hidden"){
                 setNameErr(error)
@@ -195,12 +195,12 @@ let navigate = useNavigate()
                          <div style={{...flex}} className="sec_Btns">
                             
                             <Link to="/firstPage">
-                                <div className="border" style={{...buttonStyle,width:"90px", height:"50px", backgroundColor:"unset", color:"black"}}>
+                                <div className="border" style={{...buttonStyle,width:"80px", height:"40px", backgroundColor:"unset", color:"black"}}>
                                     <p>Back</p>
                                 </div>
                             </Link>
 
-                            <div style={{...flex,...buttonStyle,width:"120px", height:"50px"}}
+                            <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}}
                             onClick={submit}>
                                 <p>Next</p>
                                 <img src={nextBTN} />
