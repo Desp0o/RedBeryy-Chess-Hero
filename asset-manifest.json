@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.48c5e019.css",
-    "main.js": "/static/js/main.671fa337.js",
+    "main.css": "/static/css/main.16271af1.css",
+    "main.js": "/static/js/main.56e726ec.js",
     "static/js/512.6c884ebe.chunk.js": "/static/js/512.6c884ebe.chunk.js",
     "static/media/secondBG.svg": "/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
     "static/media/first_bg.svg": "/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
     "static/media/arrow_next.svg": "/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
+    "static/media/CompleteMark.svg": "/static/media/CompleteMark.36b599b2c6d824988f70f663299c7b19.svg",
     "static/media/yesMark.svg": "/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
     "static/media/chessLogo.svg": "/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
     "index.html": "/index.html",
-    "main.48c5e019.css.map": "/static/css/main.48c5e019.css.map",
-    "main.671fa337.js.map": "/static/js/main.671fa337.js.map",
+    "main.16271af1.css.map": "/static/css/main.16271af1.css.map",
+    "main.56e726ec.js.map": "/static/js/main.56e726ec.js.map",
     "512.6c884ebe.chunk.js.map": "/static/js/512.6c884ebe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48c5e019.css",
-    "static/js/main.671fa337.js"
+    "static/css/main.16271af1.css",
+    "static/js/main.56e726ec.js"
   ]
 }
