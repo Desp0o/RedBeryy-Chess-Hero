@@ -5,7 +5,7 @@ import FirstPage from './firstPage';
 import SecondPage from './SecondPage';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Redirect,
