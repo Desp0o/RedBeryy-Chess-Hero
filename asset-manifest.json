@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Desp0o/RedBeryy-Chess-Hero/static/css/main.48c5e019.css",
-    "main.js": "/Desp0o/RedBeryy-Chess-Hero/static/js/main.78169465.js",
-    "static/js/512.6c884ebe.chunk.js": "/Desp0o/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js",
-    "static/media/secondBG.svg": "/Desp0o/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
-    "static/media/first_bg.svg": "/Desp0o/RedBeryy-Chess-Hero/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
-    "static/media/arrow_next.svg": "/Desp0o/RedBeryy-Chess-Hero/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
-    "static/media/yesMark.svg": "/Desp0o/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
-    "static/media/chessLogo.svg": "/Desp0o/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
-    "index.html": "/Desp0o/RedBeryy-Chess-Hero/index.html",
-    "main.48c5e019.css.map": "/Desp0o/RedBeryy-Chess-Hero/static/css/main.48c5e019.css.map",
-    "main.78169465.js.map": "/Desp0o/RedBeryy-Chess-Hero/static/js/main.78169465.js.map",
-    "512.6c884ebe.chunk.js.map": "/Desp0o/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js.map"
+    "main.css": "/RedBeryy-Chess-Hero/static/css/main.48c5e019.css",
+    "main.js": "/RedBeryy-Chess-Hero/static/js/main.7ed4103e.js",
+    "static/js/512.6c884ebe.chunk.js": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js",
+    "static/media/secondBG.svg": "/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
+    "static/media/first_bg.svg": "/RedBeryy-Chess-Hero/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
+    "static/media/arrow_next.svg": "/RedBeryy-Chess-Hero/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
+    "static/media/yesMark.svg": "/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
+    "static/media/chessLogo.svg": "/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
+    "index.html": "/RedBeryy-Chess-Hero/index.html",
+    "main.48c5e019.css.map": "/RedBeryy-Chess-Hero/static/css/main.48c5e019.css.map",
+    "main.7ed4103e.js.map": "/RedBeryy-Chess-Hero/static/js/main.7ed4103e.js.map",
+    "512.6c884ebe.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48c5e019.css",
-    "static/js/main.78169465.js"
+    "static/js/main.7ed4103e.js"
   ]
 }
