@@ -40,7 +40,7 @@ function FirstPage() {
                 </div>
 
                 <div className='container_right'>
-                    <p>chess says <span>a lot about</span> who we are</p>
+                    <p className='firstP'>chess says <span>a lot about</span> who we are</p>
 
                     <Link to="/SecondPage">
                     <div className='button' style={{...buttonStyle, gap:"0px"}} >

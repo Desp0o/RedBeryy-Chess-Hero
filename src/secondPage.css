@@ -56,6 +56,17 @@ body{
     border-radius: 8px;
 }
 
+.hideFirstCoub{
+    background-color: hsl(151, 50%, 46%, 0.2);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #E5E6E8;
+    border-radius: 8px;
+}
+
 .two{
     width: 40px;
     height: 40px;
@@ -167,4 +178,13 @@ button{
 .incorrect{
     background-color: #FFEFEF;
     color: red;
+}
+
+
+.checkMarkVisible{
+    display: block;
+}
+
+.num1visible{
+    display: block;
 }

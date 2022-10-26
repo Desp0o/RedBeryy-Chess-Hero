@@ -8,6 +8,7 @@ import nextBTN from './images/arrow_next.svg'
 import { buttonStyle } from "./firstPage";
 import yesMark from "./images/yesMark.svg"
 import {useNavigate} from "react-router-dom"
+import completeMark from "./images/CompleteMark.svg"
 
 export const flexCol = {
     display: "flex",
@@ -23,8 +24,6 @@ export const btnNoStyle = {
     all: "unset",
     cursor: "pointer"
 }
-
-
 
 
 function SecondPage() {
@@ -44,6 +43,9 @@ let navigate = useNavigate()
    const [mailErr, setMailErr] = useState('')
    const [phonErr, setPhonErr] = useState('')
     
+   const [complete, setComplete]   = useState('hidden')
+   const [classOne, setClassOne]   = useState('')
+   const [firstCoub, setFirstCoub] = useState('one')
 
    const alphabet = /[A-Z-a-z]/
    const symbols = /[-!$%^&*()_+|~=`{}\[\]:";'<>?,.\/""]/
@@ -59,7 +61,7 @@ let navigate = useNavigate()
         }
         
     return 
-   },[name])
+   },[name, clName])
 
 //    მეილის ინპუტის useeffect
    useEffect(()=>{
@@ -73,7 +75,7 @@ let navigate = useNavigate()
         }
         
     return 
-   },[mail])
+   },[mail, clMail])
 
 //    ნომრის ინპუტის useeffect   
    useEffect(()=>{
@@ -86,9 +88,25 @@ let navigate = useNavigate()
             setPhonErr('')
         }
      return
-   },[phone,clPhone])
+   },[phone, clPhone])
 
+   useEffect(()=>{
+    
+        if(clName === "visible" && clMail === "visible" && clPhone === "visible" ){
+            
+            setClassOne('hidden')
+            setFirstCoub('hideFirstCoub')
+            setComplete('checkMarkVisible')
+        }else{
+            setComplete('hidden')
+            setClassOne('num1visible')
+            setFirstCoub('one')
+        }
+  
+   },[clName,clMail,clPhone])
    
+
+
    function submit() {
         if((clName === "visible") &&
            (clMail === "visible") &&
@@ -133,7 +151,10 @@ let navigate = useNavigate()
                     <div className="sec_right_bot">
                          {/* კუბიკები */}
                          <div className="coubs">
-                            <div className="one">1</div>
+                            <div className={firstCoub}>
+                                <p className={classOne}>1</p>
+                                <img src={completeMark} className={complete} />
+                            </div >
                             <div className="line"></div>
                             <div className="two">2</div>
                          </div>
@@ -152,22 +173,22 @@ let navigate = useNavigate()
 
                          <form style={{...flexCol}}>
                             <div className="inputDiv">
-                                <input type='text'  className={nameErr}  placeholder="Name"         onChange={(e)=>setName(e.target.value)}/>
+                                <input type='text'  className={nameErr}  placeholder="Name"         onChange={(e)=>(setName(e.target.value))}/>
                                 <img className={clName} src={yesMark} />
                             </div>
 
                             <div className="inputDiv">
-                                <input type='text'  className={mailErr}  placeholder="Email Adress" onChange={(e)=> setMail(e.target.value)} />
+                                <input type='text'  className={mailErr}  placeholder="Email Adress" onChange={(e)=> (setMail(e.target.value))} />
                                 <img className={clMail} src={yesMark} />
                             </div>
 
                             <div className="inputDiv">
-                                <input type='text'  className={phonErr}  placeholder="Phone Number" onChange={(e)=> setPhone(e.target.value)}/>
+                                <input type='text'  className={phonErr}  placeholder="Phone Number" onChange={(e)=> (setPhone(e.target.value))}/>
                                 <img className={clPhone} src={yesMark} />
                             </div>
 
                             <div className="inputDiv">
-                                <input type='date' min="1995-12-31"/>
+                                <input type='text' placeholder="dd/mm/yy"/>
                             </div>  
                          </form>
 
