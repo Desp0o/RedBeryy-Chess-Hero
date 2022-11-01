@@ -4,4 +4,56 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    margin-top: 30px;
+}
+
+.selection1{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.selection1 p{
+    font-size: 16px;
+}
+
+.rotateArr {
+    transform: rotate(180deg);
+    transition: transform 0.4s ease;
+}
+
+.rotateArrBack {
+    transform: rotate(0deg);
+    transition: transform 0.4s ease;
+}
+
+.hiddenSkills{
+    position: absolute;
+    z-index: 10;
+    margin-top: 140px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 230px;
+    height: 0px;
+    border-radius: 5px;
+    display: none;
+    transition: all 0.4s ease;
+    border: 1px solid gray;
+}
+
+.showskill{
+    height: fit-content !important;
+    display: block !important;
+    transition: all 0.4s ease;
 }

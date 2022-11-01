@@ -10,6 +10,7 @@ import {useNavigate} from "react-router-dom"
 import completeMark from "./images/CompleteMark.svg"
 import thirdBG from "./images/thirdBG.png"
 import './thirdPage.css';
+import SkillDropDawn from "./SkillDropDownDawn";
 
 export const flexCol = {
     display: "flex",
@@ -30,15 +31,12 @@ export const bgGreen = {
     backgroundColor: "hsl(120, 100%, 25%, 0.1)"
 }
 
-const selectionDiv = {
-    width: "80%"
-    
-}
 
 function ThirdPage() {
 let navigate = useNavigate()
 
    const [complete, setComplete]   = useState('hidden')
+    
 
 
     return(
@@ -84,28 +82,17 @@ let navigate = useNavigate()
                             <p className="info_underTXT">This is basic informaton fields</p>
                          </div>
 
-                        <div style={{paddingLeft:'50px'}} className='checkBoxDiv'>
-                            <p>Have you participated in the Redberry Championship? *</p>
-                            <div style={{...flex, gap:'30px'}} >
-                                
-                                <div style={{display:'flex', alignItems:'center', gap:'10px', marginTop:'10px'}}>
-                                    <input type="checkbox" name="firstCHB"/>
-                                    <label for="firstCHB">Yes</label>
-                                </div>
+                        
 
-                                <div style={{display:'flex', alignItems:'center', gap:'10px', marginTop:'10px'}}>
-                                    <input type="checkbox" name="firstCHB"/>
-                                    <label for="firstCHB">No</label>
-                                </div>
+                        <div>
+                            <div style={{paddingLeft:'50px'}} className='checkBoxDiv'>
+                                <p>Have you participated in the Redberry Championship? *</p>
+                                    <div style={{...flex, gap:'30px'}} >                    
+                                        <SkillDropDawn />
+                                        <SkillDropDawn />
+                                    </div>                      
                             </div>
-                            
                         </div>
-
-
-
-
-
-
 
 
                             {/* ღილაკები */}
@@ -134,15 +121,5 @@ let navigate = useNavigate()
 }
 
 export default ThirdPage;
-
-
-
-
-
-
-
-
-
-
 
 
