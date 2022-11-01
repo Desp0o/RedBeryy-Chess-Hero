@@ -9,6 +9,7 @@ import yesMark from "./images/yesMark.svg"
 import {useNavigate} from "react-router-dom"
 import completeMark from "./images/CompleteMark.svg"
 import thirdBG from "./images/thirdBG.png"
+import './thirdPage.css';
 
 export const flexCol = {
     display: "flex",
@@ -26,7 +27,7 @@ export const btnNoStyle = {
 }
 
 export const bgGreen = {
-    backgroundColor: "hsl(120, 100%, 25%, 0.2)"
+    backgroundColor: "hsl(120, 100%, 25%, 0.1)"
 }
 
 const selectionDiv = {
@@ -83,14 +84,31 @@ let navigate = useNavigate()
                             <p className="info_underTXT">This is basic informaton fields</p>
                          </div>
 
-                        <div>
-                            <select style={selectionDiv} placeholder="heyyyooo">
-                                <option disabled> hey</option>
-                            <option value="georgia">საქართველო</option>
-                            <option value="poti" >ფოთი</option>
-                            </select>
+                        <div style={{paddingLeft:'50px'}} className='checkBoxDiv'>
+                            <p>Have you participated in the Redberry Championship? *</p>
+                            <div style={{...flex, gap:'30px'}} >
+                                
+                                <div style={{display:'flex', alignItems:'center', gap:'10px', marginTop:'10px'}}>
+                                    <input type="checkbox" name="firstCHB"/>
+                                    <label for="firstCHB">Yes</label>
+                                </div>
+
+                                <div style={{display:'flex', alignItems:'center', gap:'10px', marginTop:'10px'}}>
+                                    <input type="checkbox" name="firstCHB"/>
+                                    <label for="firstCHB">No</label>
+                                </div>
+                            </div>
+                            
                         </div>
 
+
+
+
+
+
+
+
+                            {/* ღილაკები */}
                          <div style={{...flex}} className="sec_Btns">
                             
                             <Link to="/SecondPage">
