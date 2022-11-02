@@ -169,11 +169,19 @@ button{
 
 .visible{
     position: absolute;
-    top: 15px;
     right: 10px;
-    display: block;
+    top: 8px;
 }
 
+input,
+input[type="text"]{
+    
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline-color: gray;
+}
 
 .incorrect{
     background-color: #FFEFEF;

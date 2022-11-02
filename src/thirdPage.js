@@ -12,6 +12,7 @@ import thirdBG from "./images/thirdBG.png"
 import './thirdPage.css';
 import SkillDropDawn from "./SkillDropDownDawn";
 import Avatar from "./AvatarDropDown";
+import CheckBoxes from "./ThirdPage_CheckBOX"
 
 export const flexCol = {
     display: "flex",
@@ -86,7 +87,7 @@ let navigate = useNavigate()
                         
 
                         <div>
-                            <div style={{paddingLeft:'50px'}} className='checkBoxDiv'>
+                            <div style={{paddingLeft:'50px'}} className='dropDown'>
                                 <p>Have you participated in the Redberry Championship? *</p>
                                     <div style={{...flex, gap:'30px'}} >                    
                                         <SkillDropDawn />
@@ -95,6 +96,9 @@ let navigate = useNavigate()
                             </div>
                         </div>
 
+                        <div className="checkBoxDiv">
+                            <CheckBoxes />
+                        </div>
 
                             {/* ღილაკები */}
                          <div style={{...flex}} className="sec_Btns">

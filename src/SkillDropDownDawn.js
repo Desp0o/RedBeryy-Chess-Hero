@@ -26,6 +26,9 @@ function SkillDropDawn(){
         }
    }
 
+   function radioButtons() {
+        
+   }
 
 
 
@@ -35,9 +38,9 @@ function SkillDropDawn(){
                             <img className={menuArrow} src={dropDownArr} />
 
                                 <div className={showStyle}>
-                                    <p onClick={()=> setskillName('Beginner')}> Beginner </p>
-                                    <p onClick={()=> setskillName('Intermediate')}>Intermediate</p>
-                                    <p onClick={()=> setskillName('Pro')}>Pro</p>
+                                    <p className="pHover" onClick={()=> setskillName('Beginner')}> Beginner </p>
+                                    <p className="pHover" onClick={()=> setskillName('Intermediate')}>Intermediate</p>
+                                    <p className="pHover" onClick={()=> setskillName('Pro')}>Pro</p>
                                 </div>
                         </div>
 

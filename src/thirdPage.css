@@ -1,12 +1,13 @@
-.checkBoxDiv {
+.dropDown {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
+.selection2,
 .selection1{
     box-sizing: border-box;
     margin-top: 10px;
@@ -23,6 +24,7 @@
 
 }
 
+.selection2 p,
 .selection1 p{
     font-size: 16px;
 }
@@ -41,7 +43,6 @@
     position: absolute;
     z-index: 10;
     margin-top: 140px;
-    padding-left: 10px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 230px;
@@ -66,9 +67,55 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 230px;
+    width: 215px;
+    margin-top: 5px;
 }
 
-.avatarChoose{
-    margin-top: 140px;
+.hiddenAvatar{
+    display: none;
+}
+
+.showsAvatar{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 275px;
+    height: fit-content !important;
+    display: block !important;
+    transition: all 0.4s ease;
+    position: absolute;
+    z-index: 10;
+}
+
+.innderDIV img{
+    width: 70px !important;
+}
+
+
+.checkBoxDiv_inner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 50px;   
+}
+
+.firstBox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pHover{
+    padding-left: 10px;
+}
+.pHover:hover{
+    background-color: rgb(167, 168, 168, 0.2);
+    
+}
+
+input,
+input[type="radio"]{
+    box-shadow: none;
 }
