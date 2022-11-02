@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import './thirdPage.css';
 import dropDownArr from './images/dropDownArrow.svg'
 
-export const flex = {
-    display: "flex",
-    alignItems: "center"
-}
 
 function SkillDropDawn(){
 

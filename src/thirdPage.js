@@ -11,6 +11,7 @@ import completeMark from "./images/CompleteMark.svg"
 import thirdBG from "./images/thirdBG.png"
 import './thirdPage.css';
 import SkillDropDawn from "./SkillDropDownDawn";
+import Avatar from "./AvatarDropDown";
 
 export const flexCol = {
     display: "flex",
@@ -89,7 +90,7 @@ let navigate = useNavigate()
                                 <p>Have you participated in the Redberry Championship? *</p>
                                     <div style={{...flex, gap:'30px'}} >                    
                                         <SkillDropDawn />
-                                        <SkillDropDawn />
+                                        <Avatar />
                                     </div>                      
                             </div>
                         </div>
