@@ -56,4 +56,19 @@
     height: fit-content !important;
     display: block !important;
     transition: all 0.4s ease;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+.innderDIV{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+
+.avatarChoose{
+    margin-top: 140px;
 }
