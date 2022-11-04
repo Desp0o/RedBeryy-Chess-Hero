@@ -39,12 +39,11 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 70px;
 }
 
 .container_right span{
     color: black;
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -52,6 +51,9 @@ a{
     width: 90%;
 }
 
+.button{
+    margin-top: 70px;
+}
 
 .button img{
     width: 20px;

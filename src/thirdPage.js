@@ -5,7 +5,6 @@ import './secondPage.css'
 import './firstPage.css';
 import nextBTN from './images/arrow_next.svg'
 import { buttonStyle } from "./firstPage";
-import yesMark from "./images/yesMark.svg"
 import {useNavigate} from "react-router-dom"
 import completeMark from "./images/CompleteMark.svg"
 import thirdBG from "./images/thirdBG.png"
@@ -35,14 +34,8 @@ export const bgGreen = {
 
 
 function ThirdPage() {
-let navigate = useNavigate()
-
-   const [complete, setComplete]   = useState('hidden')
-    
-   
 
     return(
-        <>
         <div>
             <div className='container'>
                 {/* მარცხენა მხარე */}
@@ -109,11 +102,12 @@ let navigate = useNavigate()
                                 </div>
                             </Link>
 
-                            <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}} 
-                            >
-                                <p>Next</p>
-                                <img src={nextBTN} />
-                            </div>
+                            <Link to="/TheEnd">
+                                <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}} >
+                                    <p>Next</p>
+                                    <img src={nextBTN} />
+                                </div>
+                            </Link>
                          </div>
                     </div>
                         
@@ -122,7 +116,7 @@ let navigate = useNavigate()
             </div>
         </div>
         
-        </>
+        
     )
 }
 
