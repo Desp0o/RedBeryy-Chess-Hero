@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import chess from './images/chessLogo.svg'
 import {Link} from  "react-router-dom";
 import './secondPage.css'
@@ -39,7 +39,7 @@ let navigate = useNavigate()
 
    const [complete, setComplete]   = useState('hidden')
     
-
+   
 
     return(
         <>
@@ -109,7 +109,8 @@ let navigate = useNavigate()
                                 </div>
                             </Link>
 
-                            <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}}>
+                            <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}} 
+                            >
                                 <p>Next</p>
                                 <img src={nextBTN} />
                             </div>

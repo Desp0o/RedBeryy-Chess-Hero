@@ -152,7 +152,7 @@ let navigate = useNavigate()
                          {/* კუბიკები */}
                          <div className="coubs">
                             <div className={firstCoub}>
-                                <p className={classOne}>1</p>
+                                <p className={classOne}><b>1</b></p>
                                 <img src={completeMark} className={complete} />
                             </div >
                             <div className="line"></div>
