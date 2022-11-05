@@ -188,7 +188,7 @@ let navigate = useNavigate()
                             </div>
 
                             <div className="inputDiv">
-                                <input type='text' placeholder="dd/mm/yy"/>
+                                <input type='date' placeholder="dd/mm/yy"/>
                             </div>  
                          </form>
 
