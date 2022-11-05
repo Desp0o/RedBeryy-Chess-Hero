@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/RedBeryy-Chess-Hero/static/css/main.b83de702.css",
-    "main.js": "/RedBeryy-Chess-Hero/static/js/main.09804e05.js",
-    "static/js/512.6c884ebe.chunk.js": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js",
+    "main.css": "/RedBeryy-Chess-Hero/static/css/main.8af2556a.css",
+    "main.js": "/RedBeryy-Chess-Hero/static/js/main.eb7faeef.js",
+    "static/js/787.16f177e3.chunk.js": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js",
     "static/media/secondBG.svg": "/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
+    "static/media/lastBg.svg": "/RedBeryy-Chess-Hero/static/media/lastBg.169a7158017105ff84dc841b59a7b3d1.svg",
+    "static/media/player2.svg": "/RedBeryy-Chess-Hero/static/media/player2.4468595968ebbea32120e6d1a83544dc.svg",
     "static/media/first_bg.svg": "/RedBeryy-Chess-Hero/static/media/first_bg.4ed550a30858b849081943dd8fe38cba.svg",
+    "static/media/player1.svg": "/RedBeryy-Chess-Hero/static/media/player1.4ab932ad68c01f05e5fb4a0119c1bc59.svg",
     "static/media/thirdBG.png": "/RedBeryy-Chess-Hero/static/media/thirdBG.44cc21c2e6aa5de3900b.png",
+    "static/media/player3.svg": "/RedBeryy-Chess-Hero/static/media/player3.a80aa665560215beac6cc3d16ea0c66c.svg",
+    "static/media/player4.svg": "/RedBeryy-Chess-Hero/static/media/player4.e32111c2fe29ea423d55b0cb5111d223.svg",
+    "static/media/rocket.svg": "/RedBeryy-Chess-Hero/static/media/rocket.3bf6df46fa2cdaedd2036d3bd25c1be0.svg",
     "static/media/arrow_next.svg": "/RedBeryy-Chess-Hero/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
-    "static/media/CompleteMark.svg": "/RedBeryy-Chess-Hero/static/media/CompleteMark.36b599b2c6d824988f70f663299c7b19.svg",
+    "static/media/CompleteMark.svg": "/RedBeryy-Chess-Hero/static/media/CompleteMark.461d4157fa0950301317eea7563321b3.svg",
     "static/media/yesMark.svg": "/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
     "static/media/chessLogo.svg": "/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
+    "static/media/dropDownArrow.svg": "/RedBeryy-Chess-Hero/static/media/dropDownArrow.9dbbb4819b83ab58ddc2c7746e9dfdfa.svg",
     "index.html": "/RedBeryy-Chess-Hero/index.html",
-    "main.b83de702.css.map": "/RedBeryy-Chess-Hero/static/css/main.b83de702.css.map",
-    "main.09804e05.js.map": "/RedBeryy-Chess-Hero/static/js/main.09804e05.js.map",
-    "512.6c884ebe.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/512.6c884ebe.chunk.js.map"
+    "main.8af2556a.css.map": "/RedBeryy-Chess-Hero/static/css/main.8af2556a.css.map",
+    "main.eb7faeef.js.map": "/RedBeryy-Chess-Hero/static/js/main.eb7faeef.js.map",
+    "787.16f177e3.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83de702.css",
-    "static/js/main.09804e05.js"
+    "static/css/main.8af2556a.css",
+    "static/js/main.eb7faeef.js"
   ]
 }
