@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RedBeryy-Chess-Hero/static/css/main.8af2556a.css",
+    "main.css": "/RedBeryy-Chess-Hero/static/css/main.2743ab17.css",
     "main.js": "/RedBeryy-Chess-Hero/static/js/main.eb7faeef.js",
     "static/js/787.16f177e3.chunk.js": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js",
     "static/media/secondBG.svg": "/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
@@ -14,16 +14,16 @@
     "static/media/rocket.svg": "/RedBeryy-Chess-Hero/static/media/rocket.3bf6df46fa2cdaedd2036d3bd25c1be0.svg",
     "static/media/arrow_next.svg": "/RedBeryy-Chess-Hero/static/media/arrow_next.2471f60b633873087f2b6433737351fe.svg",
     "static/media/CompleteMark.svg": "/RedBeryy-Chess-Hero/static/media/CompleteMark.461d4157fa0950301317eea7563321b3.svg",
+    "index.html": "/RedBeryy-Chess-Hero/index.html",
     "static/media/yesMark.svg": "/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
     "static/media/chessLogo.svg": "/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
     "static/media/dropDownArrow.svg": "/RedBeryy-Chess-Hero/static/media/dropDownArrow.9dbbb4819b83ab58ddc2c7746e9dfdfa.svg",
-    "index.html": "/RedBeryy-Chess-Hero/index.html",
-    "main.8af2556a.css.map": "/RedBeryy-Chess-Hero/static/css/main.8af2556a.css.map",
+    "main.2743ab17.css.map": "/RedBeryy-Chess-Hero/static/css/main.2743ab17.css.map",
     "main.eb7faeef.js.map": "/RedBeryy-Chess-Hero/static/js/main.eb7faeef.js.map",
     "787.16f177e3.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8af2556a.css",
+    "static/css/main.2743ab17.css",
     "static/js/main.eb7faeef.js"
   ]
 }
