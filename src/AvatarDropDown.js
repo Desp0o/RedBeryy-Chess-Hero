@@ -7,7 +7,7 @@ import player3 from './images/player3.svg'
 import player4 from './images/player4.svg'
 
 function Avatar() {
-    const [avatar, setAvatar] = useState('Avatar')
+    const [avatar, setAvatar] = useState('Choose Avatar')
     const [toggleArr, setToggleArr] = useState(false)
     const [menuArrow, setMenuArrow] = useState('')
     const [showStyle, setShowStyleStyle] = useState('hiddenAvatar')
@@ -26,7 +26,7 @@ function Avatar() {
 
     return(
         <div className="selection2" onClick={()=> toggleArrow()}>
-            <p>{avatar}</p>
+            <p className="avatarDefault">{avatar}</p>
             <img className={menuArrow} src={dropDownArr} />
 
                 

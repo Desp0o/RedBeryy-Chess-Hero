@@ -94,7 +94,7 @@ function ThirdPage() {
                         </div>
 
                             {/* ღილაკები */}
-                         <div style={{...flex}} className="sec_Btns">
+                         <div style={{...flex}} className="sec_Btns third_page_btns">
                             
                             <Link to="/SecondPage">
                                 <div className="border" style={{...buttonStyle,width:"80px", height:"40px", backgroundColor:"unset", color:"black"}}>
@@ -103,7 +103,7 @@ function ThirdPage() {
                             </Link>
 
                             <Link to="/TheEnd">
-                                <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}} >
+                                <div className="thirdNextBTN" style={{...flex,...buttonStyle,width:"110px", height:"40px"}} >
                                     <p>Next</p>
                                     <img src={nextBTN} />
                                 </div>

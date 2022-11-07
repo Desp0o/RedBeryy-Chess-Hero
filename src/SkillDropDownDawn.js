@@ -5,7 +5,7 @@ import dropDownArr from './images/dropDownArrow.svg'
 
 function SkillDropDawn(){
 
-    const [skillName, setskillName] = useState('Level')
+    const [skillName, setskillName] = useState('Your Level')
     const [showStyle, setShowStyleStyle] = useState('hiddenSkills')
     
     //    სკილის დროპდაუნის Toggle
@@ -32,7 +32,7 @@ function SkillDropDawn(){
 
     return(
      <div className="selection1" onClick={toggleArrow}>
-                            <p>{skillName}</p>
+                            <p className="skillDefault">{skillName}</p>
                             <img className={menuArrow} src={dropDownArr} />
 
                                 <div className={showStyle}>

@@ -134,8 +134,21 @@ input[type="radio"]{
     transition: all 0.4s ease;
 }
 
+.avatarDefault{
+    box-sizing: border-box;
+    width: 100px !important;
+}
+
+.skillDefault{
+    box-sizing: border-box;
+    width: 100px !important;
+}
+
 
 @media (max-width:800px) {
+    .dropDown{
+        padding-left: 30px !important;
+    }
     .dropDown p{
         font-size: 16px;
         width: 150%;
@@ -145,9 +158,37 @@ input[type="radio"]{
     }
     .selection2{
         margin-top: 20px;
-        margin-left: 50px;
     }
     .chemp{
         background-color: aqua;
+    }
+    .sec_right_top{
+        font-size: 15px;
+    }
+    .showsAvatar{
+        left:30%;
+    }
+    
+    .avatarDefault,
+    .skillDefault{
+        font-size:13px !important;
+    }
+    .checkBoxDiv_inner{
+        width: 100vw;
+        padding-left: 30px;
+    }
+    .sec_Btns{
+        width: 100vw;
+        padding-left: 30px;
+        justify-content: space-between !important;
+    }
+    .form_h{
+        padding-left: 30px ;
+    }
+    .thirdNextBTN{
+        margin-left: 10%;
+    }
+    .end_right_bot{
+        width: 100vw;
     }
 }
