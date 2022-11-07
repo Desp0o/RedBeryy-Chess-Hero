@@ -81,7 +81,7 @@ function ThirdPage() {
 
                         <div>
                             <div style={{paddingLeft:'50px'}} className='dropDown'>
-                                <p>Have you participated in the Redberry Championship? *</p>
+                                <p >Have you participated in the Redberry Championship? *</p>
                                     <div style={{...flex, gap:'30px'}} >                    
                                         <SkillDropDawn />
                                         <Avatar />

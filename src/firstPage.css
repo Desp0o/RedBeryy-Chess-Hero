@@ -87,3 +87,17 @@ a{
 a{
     width: 190px;
 }
+
+
+@media (max-width:800px) {
+    .container_left{
+        display: none;
+    }
+    .container_right{
+        width: 100%;
+        font-size: 28px;
+    }
+    .container_right span{
+        font-size: 18px;
+    }
+}

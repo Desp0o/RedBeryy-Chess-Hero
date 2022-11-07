@@ -5,7 +5,7 @@ import dropDownArr from './images/dropDownArrow.svg'
 
 function SkillDropDawn(){
 
-    const [skillName, setskillName] = useState('Level of Knowledge')
+    const [skillName, setskillName] = useState('Level')
     const [showStyle, setShowStyleStyle] = useState('hiddenSkills')
     
     //    სკილის დროპდაუნის Toggle

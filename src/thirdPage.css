@@ -133,3 +133,21 @@ input[type="radio"]{
     opacity: 1 !important;
     transition: all 0.4s ease;
 }
+
+
+@media (max-width:800px) {
+    .dropDown p{
+        font-size: 16px;
+        width: 150%;
+    }
+    .selection1{
+        margin-top: 20px;
+    }
+    .selection2{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .chemp{
+        background-color: aqua;
+    }
+}

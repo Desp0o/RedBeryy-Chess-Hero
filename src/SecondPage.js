@@ -161,8 +161,8 @@ let navigate = useNavigate()
 
                          {/* კუბის ტექსტები */}
                          <div className="coub_txt">
-                            <p className="1">Personal Information</p>
-                            <p className="2">Chess Experience</p>
+                            <p className="t1">Personal Information</p>
+                            <p className="t2">Chess Experience</p>
                          </div>
 
                          {/* კუბის ტექსტები */}
@@ -200,10 +200,9 @@ let navigate = useNavigate()
                                 </div>
                             </Link>
 
-                            <div style={{...flex,...buttonStyle,width:"110px", height:"40px"}}
+                            <div className="nxtBTNsec" style={{...flex,...buttonStyle,width:"110px", height:"40px"}}
                             onClick={submit}>
                                 <p>Next</p>
-                                <img src={nextBTN} />
                             </div>
                          </div>
                     </div>
