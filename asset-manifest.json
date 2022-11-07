@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RedBeryy-Chess-Hero/static/css/main.e1fb7a32.css",
-    "main.js": "/RedBeryy-Chess-Hero/static/js/main.6ea33592.js",
+    "main.css": "/RedBeryy-Chess-Hero/static/css/main.f27ce164.css",
+    "main.js": "/RedBeryy-Chess-Hero/static/js/main.9161c37d.js",
     "static/js/787.16f177e3.chunk.js": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js",
     "static/media/secondBG.svg": "/RedBeryy-Chess-Hero/static/media/secondBG.f722110fbd15316362fe5294ebe6b70e.svg",
     "static/media/lastBg.svg": "/RedBeryy-Chess-Hero/static/media/lastBg.169a7158017105ff84dc841b59a7b3d1.svg",
@@ -18,12 +18,12 @@
     "static/media/yesMark.svg": "/RedBeryy-Chess-Hero/static/media/yesMark.11d41436dae67426e32a940c43d27113.svg",
     "static/media/chessLogo.svg": "/RedBeryy-Chess-Hero/static/media/chessLogo.ce166f3d50159d9ac0ece276d60acc09.svg",
     "static/media/dropDownArrow.svg": "/RedBeryy-Chess-Hero/static/media/dropDownArrow.9dbbb4819b83ab58ddc2c7746e9dfdfa.svg",
-    "main.e1fb7a32.css.map": "/RedBeryy-Chess-Hero/static/css/main.e1fb7a32.css.map",
-    "main.6ea33592.js.map": "/RedBeryy-Chess-Hero/static/js/main.6ea33592.js.map",
+    "main.f27ce164.css.map": "/RedBeryy-Chess-Hero/static/css/main.f27ce164.css.map",
+    "main.9161c37d.js.map": "/RedBeryy-Chess-Hero/static/js/main.9161c37d.js.map",
     "787.16f177e3.chunk.js.map": "/RedBeryy-Chess-Hero/static/js/787.16f177e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1fb7a32.css",
-    "static/js/main.6ea33592.js"
+    "static/css/main.f27ce164.css",
+    "static/js/main.9161c37d.js"
   ]
 }
